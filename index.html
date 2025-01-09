@@ -8,14 +8,14 @@
     <meta name="author" content="Generation Brasil">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <title>Meu Perfil</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <body>
     <!-- Cabeçalho da Página (header) -->
     <header>
         <!-- Div Conteudo do Cabeçalho -->
-        <div id="header_content">
+        <div id="header_content" class="flex">
             <!-- Titulo do Cabeçalho -->
             <div id="titulo">
                 <!-- Seu nome -->
@@ -43,16 +43,14 @@
     <!-- Seção Principal da Página (main) -->
     <main>
         <!-- Seção Sobre você -->
-    <div id="container_conteudo">
-            <img id="perfil" src="./assets/img/IMG-20240329-WA0013.jpg" style="width: 80px; height: 107px;"
-            alt="Foto do criador desse conteudo" />
-        <section id="about">
+        <section id="about" class="flex_start">
             <!-- Título da Seção -->
             <h2>Sobre mim</h2>
 
             <!-- Conteúdo da Seção -->
-            <div id="conteudo">
-
+            <div id="conteudo" class="flex">
+                <img id="perfil" src="./assets/img/IMG-20240329-WA0013.jpg" style="width: 80px; height: 107px;"
+                alt="Foto do criador desse conteudo" class="img_profile"/>
                 <!-- Texto sobre o criador do conteúdo -->
                 <article id="sobre_texto">
                     <p>
@@ -61,16 +59,15 @@
                 </article>
             </div>
         </section>
-    </div>
 
         <!-- Seção contendo um vídeo de sua preferência -->
-        <section id="video">
+        <section id="video" class="flex_start">
 
             <!-- Título da Seção -->
             <h2>Meu vídeo favorito:</h2>
 
             <!-- Vídeo da Seção -->
-            <div class="youtube">
+            <div class="youtube" class="flex">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Vwo1miUjDSc?si=SFNEI_eJmRRObEpi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
 
@@ -79,7 +76,7 @@
     </main>
 
     <!-- Rodapé da Página (footer) -->
-    <footer>
+    <footer class="flex">
 
         <!-- Seção de Contato - Redes Sociais-->
         <section id="redes_sociais">
