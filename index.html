@@ -1,103 +1,116 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Projeto Portfólio">
-    <meta name="author" content="Generation Brasil">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Projeto Portfólio" />
+    <meta name="author" content="Generation Brasil" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
     <title>Meu Perfil</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Cabeçalho da Página (header) -->
     <header>
-        <!-- Div Conteudo do Cabeçalho -->
-        <div id="header_content" class="flex">
-            <!-- Titulo do Cabeçalho -->
-            <div id="titulo">
-                <!-- Seu nome -->
-                <h1>Blog Pessoal</h1>
-            </div>
-
-            <!-- Conteudo do Menu da Página (header) -->
-            <div id="menu">
-                <!-- Menu da Página -->
-                <nav>
-                    <!-- Marcadores não ordenados + links -->
-                    <ul id="menu">
-                        <li>
-                            <a href="index.html"> Home </a>
-                        </li>
-                        <li>
-                            <a href="contato.html"> Contato </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+      <!-- Div Conteudo do Cabeçalho -->
+      <div id="header_content" class="flex">
+        <!-- Titulo do Cabeçalho -->
+        <div id="titulo">
+          <!-- Seu nome -->
+          <h1>Emerson Marques</h1>
         </div>
+
+        <!-- Conteudo do Menu da Página (header) -->
+        <div id="menu">
+          <!-- Menu da Página -->
+          <nav>
+            <!-- Marcadores não ordenados + links -->
+            <ul id="menu">
+              <li>
+                <a href="index.html"> Home </a>
+              </li>
+              <li>
+                <a href="contato.html"> Contato </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
 
     <!-- Seção Principal da Página (main) -->
     <main>
-        <!-- Seção Sobre você -->
-        <section id="about" class="flex_start">
-            <!-- Título da Seção -->
-            <h2>Sobre mim</h2>
+      <!-- Seção Sobre você -->
+      <section id="about" class="flex_start">
+        <!-- Título da Seção -->
+        <h2>Sobre mim</h2>
 
-            <!-- Conteúdo da Seção -->
-            <div id="conteudo" class="flex">
-                <img id="perfil" src="./assets/img/IMG-20240329-WA0013.jpg" style="width: 80px; height: 107px;"
-                alt="Foto do criador desse conteudo" class="img_profile"/>
-                <!-- Texto sobre o criador do conteúdo -->
-                <article id="sobre_texto">
-                    <p>
-                        Desenvolvedor front-end com dois anos de experiência, atualmente aprimorando habilidades em Java Full Stack pelo bootcamp da Generation. Tenho conhecimentos em JavaScript, React, Java e foco em soluções práticas e colaborativas.    
-                    </p>
-                </article>
-            </div>
-        </section>
+        <!-- Conteúdo da Seção -->
+        <div id="conteudo" class="flex">
+          <img
+            id="perfil"
+            src="./assets/img/IMG-20240329-WA0013.jpg"
+            style="width: 80px; height: 107px"
+            alt="Foto do criador desse conteudo"
+            class="img_profile"
+          />
+          <!-- Texto sobre o criador do conteúdo -->
+          <article id="sobre_texto">
+            <p>
+              Desenvolvedor front-end com dois anos de experiência, atualmente
+              aprimorando habilidades em Java Full Stack pelo bootcamp da
+              Generation. Tenho conhecimentos em JavaScript, React, Java e foco
+              em soluções práticas e colaborativas.
+            </p>
+          </article>
+        </div>
+      </section>
 
-        <!-- Seção contendo um vídeo de sua preferência -->
-        <section id="video" class="flex_start">
+      <!-- Seção contendo um vídeo de sua preferência -->
+      <section id="video" class="flex_start">
+        <!-- Título da Seção -->
+        <h2>Meu vídeo favorito:</h2>
 
-            <!-- Título da Seção -->
-            <h2>Meu vídeo favorito:</h2>
-
-            <!-- Vídeo da Seção -->
-            <div class="youtube" class="flex">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Vwo1miUjDSc?si=SFNEI_eJmRRObEpi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-
-        </section>
-
+        <!-- Vídeo da Seção -->
+        <div class="youtube" class="flex">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Vwo1miUjDSc?si=SFNEI_eJmRRObEpi"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
     </main>
 
     <!-- Rodapé da Página (footer) -->
     <footer class="flex">
-
-        <!-- Seção de Contato - Redes Sociais-->
-        <section id="redes_sociais">
-
-            <a href="https://github.com/ninguemzin" target="_blank">
-                <img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
-            </a>
-            <a href="https://www.linkedin.com/in/emersonalm/" target="_blank" >
-                <img src="assets/img/github.svg" alt="Github" class="social_icon"/>
-            </a>
-            <a href="https://www.instagram.com/emersaozaum/" target="_blank" >
-                <img src="assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
-            </a>
-
-        </section>
-
-        <h3>
-            Feito por Emerson Marques - 2024
-        </h3>
-
+      <!-- Seção de Contato - Redes Sociais-->
+      <section id="redes_sociais">
+        <a href="https://github.com/ninguemzin" target="_blank">
+          <img
+            src="assets/img/linkedin.svg"
+            alt="LinkedIn"
+            class="social_icon"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/emersonalm/" target="_blank">
+          <img src="assets/img/github.svg" alt="Github" class="social_icon" />
+        </a>
+        <a href="https://www.instagram.com/emersaozaum/" target="_blank">
+          <img
+            src="assets/img/instagram.svg"
+            alt="Instagram"
+            class="social_icon"
+          />
+        </a>
+      </section>
+      <h3>Feito por Emerson Marques - 2024</h3>
     </footer>
-</body>
-
+  </body>
 </html>
