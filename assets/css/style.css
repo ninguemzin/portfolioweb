@@ -171,8 +171,8 @@ footer {
 }
 
 .social_icon:hover {
-  filter: brightness(0) saturate(100%) invert(65%) sepia(59%) saturate(2437%)
-    hue-rotate(213deg) brightness(86%) contrast(88%);
+  filter: brightness(0) saturate(100%) invert(30%) sepia(96%) saturate(2000%)
+    hue-rotate(190deg) brightness(70%) contrast(85%);
 }
 
 /*Estilização da Página de Contato*/
